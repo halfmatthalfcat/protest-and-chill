@@ -1,0 +1,44 @@
+@import url("//hello.myfonts.net/count/30e8cf");
+
+@font-face {font-family: 'GraphiquePro';src: url('webfonts/30E8CF_0_0.eot');src: url('webfonts/30E8CF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30E8CF_0_0.woff2') format('woff2'),url('webfonts/30E8CF_0_0.woff') format('woff'),url('webfonts/30E8CF_0_0.ttf') format('truetype');}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(255, 0, 0, .75);
+  font-family: GraphiquePro;
+}
+
+body > * {
+  flex: 1 1 auto;
+  max-height: 130px;
+}
+
+a {
+  color: inherit;
+}
+
+.title1, .title2, .title3 {
+  font-size: 9em;
+}
+
+.time {
+  font-size: 5em;
+  margin-top: 1em;
+}
+
+.location {
+  font-size: 4em;
+  margin-top: -.25em;
+}
+
+.twitter {
+  color: "#55acee";
+}
